@@ -82,3 +82,45 @@ body {
   align-items: center;
   height: 5vh;
 }
+
+@media (max-width: 800px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container--img {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container__info {
+    width: auto;
+  }
+
+  .container__info--p {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .container__info--h1 {
+    font-size: 4em;
+  }
+
+  .container__info--btn {
+    color: #dfdddd;
+    background: #333333;
+    width: 30vh;
+    border: none;
+    height: 10vw;
+    outline-style: none;
+  }
+
+}
